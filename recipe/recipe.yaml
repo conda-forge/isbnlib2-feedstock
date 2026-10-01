@@ -12,7 +12,7 @@ source:
   sha256: d13dbb147779c975f42bd69c10715111a353d66cb720a858009101b8638f6ee7
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
@@ -23,6 +23,8 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
+  run_constraints:
+    - isbnlib <0.0a0
 
 tests:
   - python:
