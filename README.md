@@ -189,4 +189,5 @@ Feedstock Maintainers
 =====================
 
 * [@tovrstra](https://github.com/tovrstra/)
+* [@hans-fritz-pommes](https://github.com/hans-fritz-pommes/)
 
