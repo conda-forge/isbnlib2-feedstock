@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "3.11.24"
+  version: "3.11.26"
 
 package:
   name: isbnlib2
@@ -9,10 +9,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/i/isbnlib2/isbnlib2-${{ version }}.tar.gz
-  sha256: d13dbb147779c975f42bd69c10715111a353d66cb720a858009101b8638f6ee7
+  sha256: 305e3b75a5ca249367c7d2b11d66776872719ff98e2baef4be4137bf84b6aed2
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
